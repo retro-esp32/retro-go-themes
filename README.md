@@ -22,6 +22,7 @@ This is a collection of Themes you can install for your Odroid Go that is runnni
 
 | Theme | Preview |
 |--|--|
+| GBZ | ![Clean](previews/GBZ.png)|
 | Box | ![Box](previews/box.png)|
 | Comic Book | ![Comic Book](previews/comicbook.png)|
 | Noir | ![Noir](previews/noir.png)|
