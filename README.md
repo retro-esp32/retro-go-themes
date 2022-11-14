@@ -9,10 +9,10 @@ This is a collection of Themes you can install for your Odroid Go that is runnni
 > Clone, Mount, Copy, Paste
 
 * Mount Your SD Card
-* In `retro-go` create a `theme` folder
+* In `retro-go` create a `themes` folder if there isn't one
 * Select your *theme* from this repo
 * Copy all the images from inside that theme folder
-* Paste to your SD card in the `theme` folder (currently only one theme at a time is supported)
+* Paste to your SD card in the `themes`
 * Eject your SD Card
 * Mount yoru SD Card in your Odroid Go
 * Enjoy
