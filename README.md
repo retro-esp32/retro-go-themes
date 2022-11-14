@@ -22,11 +22,12 @@ This is a collection of Themes you can install for your Odroid Go that is runnni
 
 | Theme | Preview |
 |--|--|
+| Pixel | ![Pixel](previews/pixel.png)|
+| TV | ![Pixel](previews/tv.png)|
 | GBZ | ![Clean](previews/GBZ.png)|
 | Box | ![Box](previews/box.png)|
 | Comic Book | ![Comic Book](previews/comicbook.png)|
 | Noir | ![Noir](previews/noir.png)|
-| Pixel | ![Pixel](previews/pixel.png)|
 | Clean | ![Clean](previews/clean.png)|
 
 
@@ -43,7 +44,7 @@ This is a collection of Themes you can install for your Odroid Go that is runnni
 
 Did you know, you can support us in a few way? We offer multiple sponsorship tiers, with different rewards!
 
-Take a *look*. 
+Take a *look*.
 See what *fits*.
 
  [![Support](https://raw.githubusercontent.com/retro-esp32/RetroESP32/master/Assets/sponsor.jpg)](https://github.com/sponsors/32teeth)

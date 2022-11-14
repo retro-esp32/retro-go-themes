@@ -6,7 +6,7 @@
 source styles.sh
 
 PREFIXES=("background" "banner" "logo")
-SYSTEMS=("2600" "col" "collections" "doom" "favorite" "gb" "gbc" "gg" "lnx" "md" "nes" "pce" "recent" "sms" "snes" "themes")
+SYSTEMS=("2600" "col" "collections" "doom" "favorite" "gb" "gbc" "gg" "gw" "lnx" "md" "nes" "pce" "recent" "sms" "snes" "themes")
 SIZES=("320x240" "274x24" "46x50")
 BACKGROUNDS=("white" "magenta" "black" "transparent")
 BACKGROUND
@@ -20,7 +20,7 @@ MESSAGE="${MESSAGE}"
 background() {
   clear
   echo -e "${LINE}${MESSAGE}${LINE}"
-  echo -e "Select a background color:"  
+  echo -e "Select a background color:"
   select BACKGROUND in "${BACKGROUNDS[@]}"
   do
     case $BACKGROUND in
@@ -29,13 +29,13 @@ background() {
         then
           clear
           echo -e "${LINE}${MESSAGE}${LINE}"
-          echo -e "Select a background color: ${BACKGROUND}"  
+          echo -e "Select a background color: ${BACKGROUND}"
           break
         else
           background
         fi
     esac
-  done  
+  done
 }
 
 clear
@@ -52,7 +52,7 @@ then
   read theme
   clear
   echo -e "${LINE}${MESSAGE}${LINE}"
-  echo -e "Creating theme with name: ${theme}"  
+  echo -e "Creating theme with name: ${theme}"
 
   mkdir themes/${theme}
   cd themes/${theme}
@@ -73,9 +73,9 @@ then
 
   clear
   echo -e "${LINE}${MESSAGE}${LINE}"
-  echo -e "Thank you!"  
+  echo -e "Thank you!"
 
 else
   clear
-  exit  
+  exit
 fi
