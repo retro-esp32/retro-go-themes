@@ -6,7 +6,7 @@
 source styles.sh
 
 PREFIXES=("background" "banner" "logo")
-SYSTEMS=("2600" "col" "collections" "doom" "favorite" "gb" "gbc" "gg" "gw" "lnx" "md" "nes" "pce" "recent" "sms" "snes" "themes")
+SYSTEMS=("2600" "col" "collections" "doom" "favorite" "gb" "gbc" "gg" "gw" "lnx" "md" "nes" "ngp" "pce" "recent" "sms" "snes" "themes")
 SIZES=("320x240" "274x24" "46x50")
 BACKGROUNDS=("white" "magenta" "black" "transparent")
 BACKGROUND
